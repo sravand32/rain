@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html >
-<!--From https://codepen.io/frytyler/pen/EGdtg-->
 <head>
   <meta charset="UTF-8">
   <title>Rain prediction</title>
@@ -15,7 +14,6 @@
  <div class="login">
 	<h1>rain fall prediction</h1>
 
-     <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="hum" placeholder="Humidity" required="required" /><br>
         <input type="text" name="temp" placeholder="Temperature" required="required" /><br>
